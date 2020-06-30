@@ -1,0 +1,21 @@
+server:
+  port: 8081
+  
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://localhost:3306/fornecedor
+    username: root
+    password: mariadb
+  application:
+    name: 'fornecedor'
+    
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+ 

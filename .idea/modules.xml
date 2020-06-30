@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/fornecedor/fornecedor.iml" filepath="$PROJECT_DIR$/fornecedor/fornecedor.iml" />
       <module fileurl="file://$PROJECT_DIR$/loja/loja.iml" filepath="$PROJECT_DIR$/loja/loja.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/spring-microservices.iml" filepath="$PROJECT_DIR$/.idea/spring-microservices.iml" />
     </modules>
   </component>
 </project>
