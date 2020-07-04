@@ -2,10 +2,9 @@ server:
   port: 8888
   
 spring:
-  profiles:
-    active: native
   cloud:
     config:
       server:
-        native:
-          search-locations: /home/tonycosta/Documentos/codes/alura/microservices-repo
+        git:
+          uri: https://github.com/tonyblack10/microservices-repo
+          search-paths: fornecedor
