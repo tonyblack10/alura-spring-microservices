@@ -7,4 +7,4 @@ spring:
       server:
         git:
           uri: https://github.com/tonyblack10/microservices-repo
-          search-paths: fornecedor
+          search-paths: fornecedor, loja
